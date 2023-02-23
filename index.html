@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dweep</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,600&family=Inter:wght@400;500;600;900&family=Nunito:wght@700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container">
+    
+        <div class="hero_class">
+            <div class="nav_bar">
+                <div class="logo">
+                    <h1>Dweep.io</h1>
+                    <div class="tagline">A random prompt generator</div>
+                </div>
+                <div class="menu">Menu</div>
+                <div class="nav">
+                    <p>Daily Inspiration</p>
+                    <p>About</p>
+                    <p class="contribute">Contribute</p>
+                </div>
+            </div>
+
+            <select id="dropdown-menu" class="dropdown-menu white">
+                <option value="DESIGN" selected>Design > UX/UI Design</option>
+                <option value="logo">Logo and Branding</option>
+                <option value="poster">Poster design</option>
+                <option value="illustration">Illustration</option>
+                <option value="Packaging">Packaging Design</option>
+            </select><br>
+            <div class="hero_">
+                <div class="author">by Syeda Sana <div class="toggle"><img src="icon/CaretLeft.png" alt="Arrow-Left"><img src="icon/CaretRight.png" alt="Arrow-Right"></div></div>
+                <div class="hero">Create a poker app for a casino in Tokyo with video chat</div>
+                <div class="btn1">
+                    <div class="generate">Generate <img class="icon-shuffle" src="icon/Shuffle.png" alt="Shuffle"></div><div class="share"><img src="icon/ShareNetwork.png" alt="Share"></div>
+                </div>
+                <div class="bottom">
+                    <div class="palette">
+                        <p class="color">Colours to inspire</p>
+                        <div class="rect">
+                            <div class="box box1"></div> <div class="box box2"></div>
+                        </div>
+                    </div>
+                    <div class="font">
+                        <p>Font to inspire</p><p class="nunito">Nunito</p>
+                    </div>
+                </div>
+            </div>
+            <p class="scroll">Scroll down <img src="icon/CaretDown.png" alt="Arrow-Down"> for Dweep Daily</p>
+           
+            <div class="dropdown">Design<img src="icon/CaretDown.png" alt="Arrow-Down"></div>
+            
+            <div class="side_nav">
+                <div class="ux"><img src="icon/Vector.png" alt="vector"><p>UX/UI Design</p></div>
+                <p>Logo and Branding</p>
+                <p>Poster design</p>
+                <p>Illustration</p>
+                <p>Packaging Design</p>
+                <p>Album Art</p>
+                <p>T-shirt Design</p>
+            </div>
+        </div>
+
+        <div class="section2">
+
+            <div class="section2_text">
+                <h2>An inspiring design delivered to your inbox every morning</h2>
+                <div class="tag">Our team scouts the internet for the best designs, illustrations and art and delivers a truly inspiring one every day to your inbox</div>
+                <div class="show_me">
+                    <h3>Show me how it looks</h3><img src="icon/ArrowRight.png" alt="vector">
+                </div>
+                <div class="register">
+                    <div class="btn">
+                        <input type="email" id="email" placeholder="Your e-mail address">
+                        <button>Register Now</button>
+                    </div>
+                    <div class="spam">Free - No Spam - No Data Sharing</div>
+                    
+                </div>
+            </div>
+
+            <figure class="man"><img src="icon/Group.png" alt="man"></figure>
+
+        </div>
+
+        <div class="social">
+
+            <h2 class="find">Find us on Social Media</h2>
+
+            <div class="links">
+                <div class="insta">Instagram <img src="icon/InstagramLogo.png" alt="Instagram"></div>
+                <div class="insta">LinkedIn <img src="icon/LinkedinLogo.png" alt="Instagram"></div>
+            </div>
+
+        </div>
+
+        <div class="about">
+            <div class="aboutUs">
+                <h2 class="about_text">About us</h2>
+                <div class="about_desc">
+                
+                    <p class="text">Dweep.io is a random prompt generator with millions of propmts for design, illustrations, creative writing and more.</p>
+                    <p class="text">Here are the founders of Dweep, for the full list of contributors,<span> see here</span></p>
+                </div>
+            </div>
+            <div class="users">
+                <div class="user">
+                    <img src="icon/Ellipse 6.png" alt="about_1">
+                    <div class="detail">
+                        <div class="name">Kumar Shubh</div>
+                        <div class="career">Programmer<img src="icon/LinkedinLogo1.png" alt="LinkedIn"></div>
+                    </div>
+                </div>
+                <div class="user">
+                    <img src="icon/Ellipse 2.png" alt="about_1">
+                    <div class="detail">
+                        <div class="name">Marie Cooper</div>
+                        <div class="career">UX Designer<img src="icon/LinkedinLogo1.png" alt="LinkedIn"></div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+
+        <div class="contribute1">
+            <div class="contribute_left">
+                <h2>Contribute</h2>
+                <p  class="text">Keep the fun going. Contribute a prompt or design inspiration and get featured on a prompt card or the morning newsletter.</p>
+                    <p class="text">Share your Portfolio or LinkedIn if you wish to let users find out more about you and your work.</p>
+                    <p class="text">A list of all the wonderful people who contributed prompts can be found <span>here</span></p>
+                    <p class="text">See how we handle your data <span>here</span></p>
+            </div>
+
+                <form action="">
+                    <label for="write">Your Prompt / Design Inspiration</label><br>
+                    <textarea id="write" rows="4" cols="50">Write an interesting prompt here</textarea>
+                    <label for="dropdown">Select Category</label><br>
+                    <select id="dropdown" class="category">
+                        <option value="design" selected>Design > UX/UI Design</option>
+                        <option value="logo">Logo and Branding</option>
+                        <option value="poster">Poster design</option>
+                        <option value="illustration">Illustration</option>
+                        <option value="Packaging">Packaging Design</option>
+                    </select><br>
+
+                    <label for="name">Name</label><br>
+                    <input type="text" name="name" id="name" placeholder="Enter your name" required><br>
+
+                    <label for="Portfolio">Portfolio URL (optional)</label><br>
+                    <input type="text" name="Portfolio" id="Portfolio" placeholder="Link to portfolio"><br>
+
+                    <label for="email">E-mail address</label><br>
+                    <input type="email" name="email" id="email" placeholder="Your E-mail Address" required><br>
+
+                    <button>Submit Prompt</button>
+
+                </form>
+        </div>
+        <div class="contributors">
+
+            <h4>Top Contributors in July 2021</h4>
+
+            <div class="user_contributions">
+                <div class="user1">
+                    <img src="icon/Ellipse 1.png" alt="user">
+                    <div class="about_user">
+                        <p class="name">Eskill Noronha</p>
+                        <p class="career1">Designer</p>
+                    </div>
+                </div>
+                <div class="user1">
+                    <img src="icon/Ellipse.png" alt="user">
+                    <div class="about_user">
+                        <div class="name">Ruben Kilafat</div>
+                        <div class="career1">Content Writer</div>
+                    </div>
+                </div>
+                <div class="user1">
+                    <img src="icon/Ellipse 3.png" alt="user">
+                    <div class="about_user">
+                        <div class="name">Omar Khalid</div>
+                        <div class="career1">Content Writer</div>
+                    </div>
+                </div>
+            </div>
+
+            <p class="see_all">See All Contributors</p>
+            
+        </div>
+
+        <footer>
+            <div class="content">
+                <p>Prompt Generator</p>
+                <p>Dweep Daily</p>
+                <p>All Contributors</p>
+                <p>Your data on Dweep.io</p>
+                <p>Contribute to Dweep</p>
+            </div>
+
+            <div class="contact_detail">
+                <p>Dweep.io</p>
+                <p>Made with love in India</p>
+                <img src="icon/LinkedinLogo.png"><img src="icon/InstagramLogo.png">
+                <p>hello@twoskill.com</p>
+            </div>
+
+        </footer>   
+
+    </div> 
+</body>
+</html>
