@@ -496,7 +496,7 @@ select>option{
 }
 
 
-@media only screen and (min-width:800px){
+@media only screen and (min-width:1200px){
 .tagline{display: block;}
 
 .hero_class{
@@ -819,4 +819,3 @@ form button{
 }
 
 }
-
